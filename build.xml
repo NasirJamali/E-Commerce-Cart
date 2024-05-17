@@ -1,0 +1,24 @@
+<project name="ShoppingCart" default="run" basedir=".">
+    <description>
+        Shopping Cart Project
+    </description>
+
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="jar.dir" value="${build.dir}/jar"/>
+    <property name="jar.name" value="ShoppingCart.jar"/>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
+    </target>
+
+    <target name="run" depends="compile">
+        <java classname="HelloWorld" classpath="${classes.dir}" fork="true"/>
+    </target>
+</project>
