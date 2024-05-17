@@ -37,6 +37,9 @@ Step 04: Exit the application:
   .The application will display a thank you message and terminate.
 
 
-  Made with ❤️ by 
+  Project Partners :
   Nasir Hussain
+  Abdul Ahad 
+  Muhammad Nawaz
+  Israr Shah
  
