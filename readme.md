@@ -1,7 +1,7 @@
-This is a simple Java project for managing a shopping cart.
+This is a simple Java project for managing a E-Commerce shopping cart.
 
 Description
-This project is a simple console-based shopping cart application written in Java. It allows users to add, view, remove items, and calculate the total cost of items in the cart. The application uses a HashMap to store the items and their corresponding prices.
+This project is a simple console-based cart application written in Java. It allows users to add, view, remove items, and calculate the total cost of items in the cart. The application uses a HashMap to store the items and their corresponding prices.
 
 Features
 . Add items to the cart: Users can add items with their names and prices.
