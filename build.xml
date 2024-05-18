@@ -1,23 +1,32 @@
 <project name="ShoppingCart" default="run" basedir=".">
+    <!-- Project description -->
     <description>
         Shopping Cart Project
     </description>
 
+    <!-- Define property for source directory -->
     <property name="src.dir" value="src"/>
+    <!-- Define property for build directory -->
     <property name="build.dir" value="build"/>
+    <!-- Define property for classes directory inside the build directory -->
     <property name="classes.dir" value="${build.dir}/classes"/>
+    <!-- Define property for JAR directory inside the build directory -->
     <property name="jar.dir" value="${build.dir}/jar"/>
+    <!-- Define property for the name of the JAR file -->
     <property name="jar.name" value="ShoppingCart.jar"/>
 
+    <!-- Target to clean the build directory -->
     <target name="clean">
         <delete dir="${build.dir}"/>
     </target>
 
+    <!-- Target to compile the source files -->
     <target name="compile">
         <mkdir dir="${classes.dir}"/>
         <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
     </target>
 
+    <!-- Target to run the application, depends on the compile target -->
     <target name="run" depends="compile">
         <java classname="HelloWorld" classpath="${classes.dir}" fork="true"/>
     </target>
