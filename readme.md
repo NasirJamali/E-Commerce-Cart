@@ -38,11 +38,11 @@ Step 04: Exit the application:
 
 
   Project Partners :
-  . Nasir Hussain (2k23/CSE/115)
-  . Abdul Ahad (2K23/CSE/3)
-  . Muhammad Nawaz (2K23/CSE/98)
-  . Syed Israr Shah (2K23/CSE/144)
-  . Musawir Hussain (2K23/CSE/110)
+  1. Nasir Hussain (2k23/CSE/115)
+  2. Abdul Ahad (2K23/CSE/3)
+  3. Muhammad Nawaz (2K23/CSE/98)
+  4. Syed Israr Shah (2K23/CSE/144)
+  5. Musawir Hussain (2K23/CSE/110)
 
   THANK YOU!
  
