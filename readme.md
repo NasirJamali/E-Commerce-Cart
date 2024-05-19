@@ -44,5 +44,5 @@ Step 04: Exit the application:
   4. Syed Israr Shah (2K23/CSE/144)
   5. Musawir Hussain (2K23/CSE/110)
 
-  THANK YOU!...
+  THANK YOU!
  
